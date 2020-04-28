@@ -1,0 +1,277 @@
+1588003025320	geckodriver	INFO	geckodriver 0.21.0
+1588003025341	geckodriver	INFO	Listening on 127.0.0.1:64197
+1588003028356	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Billy\\AppData\\Local\\Temp\\rust_mozprofile.4yYT5dyjDWCd"
+1588003029397	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588003029451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588003029451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588003029452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588003029452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588003029730	Marionette	TRACE	Marionette enabled
+1588003029805	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588003033711	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588003033711	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588003033792	Marionette	TRACE	All scripts recorded.
+1588003033793	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1588003033793	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588003033793	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588003033794	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588003033794	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588003033795	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588003033795	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588003033795	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588003033796	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588003033796	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588003033796	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588003033797	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588003033797	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588003033797	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588003033798	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588003033798	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588003033798	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588003033799	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588003033799	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588003033799	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588003033800	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588003033801	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588003033801	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588003033897	Marionette	INFO	Listening on port 64208
+1588003033897	Marionette	DEBUG	Marionette is listening
+1588003034105	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:64222
+1588003034107	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1588003034108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588003034168	Marionette	TRACE	[18] Frame script loaded
+1588003034172	Marionette	TRACE	[18] Frame script registered
+1588003034181	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"66c99652-747a-4dd1-8ae6-9c9ce08e5d99","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1588003034194	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"script":5000}]
+1588003034195	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588003034201	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":0}]
+1588003034202	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588003034205	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"http://www.amazon.co.uk"}]
+1588003034216	Marionette	TRACE	[18] Received DOM event beforeunload for about:blank
+1588003036666	Marionette	TRACE	[18] Received DOM event pagehide for about:blank
+1588003038555	Marionette	TRACE	[18] Received DOM event DOMContentLoaded for https://www.amazon.co.uk/
+1588003039308	Marionette	TRACE	[18] Received DOM event pageshow for https://www.amazon.co.uk/
+1588003039314	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1588003039345	Marionette	DEBUG	0 -> [0,5,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588003039346	Marionette	INFO	Stopped listening on port 64208
+1588003040813	Marionette	TRACE	Received observer notification quit-application
+1588003040824	Marionette	DEBUG	0 <- [1,5,null,{"cause":"shutdown"}]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1588003041047	Marionette	DEBUG	0 -> [0,6,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588003041052	Marionette	DEBUG	0 <- [1,6,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDriver ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1588003041291	Marionette	DEBUG	Closed connection 0
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1588003045786	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1588003045787	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1588003045787	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1588003045787	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1588003045787	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1588003045788	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1588003045789	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1588003045789	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1588003045789	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1588003045790	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1588003045790	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1588003045790	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1588003045790	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1588003045790	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1588003045790	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1588003045790	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1588003045790	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1588003045791	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1588003045791	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1588003045792	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

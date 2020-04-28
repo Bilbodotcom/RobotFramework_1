@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200427 18:04:30.574" generator="Robot 3.1.2 (Python 2.7.17 on win32)">
+<suite source="C:\Automation\Robot_Framework\01-Tutorial1\Tests\Amazon.robot" id="s1" name="Amazon">
+<test id="s1-t1" name="User must sign in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.co.uk</arg>
+<arg>opera</arg>
+</arguments>
+<msg timestamp="20200427 18:04:31.065" level="INFO">Opening browser 'opera' to base url 'http://www.amazon.co.uk'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200427 18:04:31.081" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20200427 18:04:31.097" starttime="20200427 18:04:31.081"></status>
+</kw>
+<msg timestamp="20200427 18:04:31.128" level="FAIL">WebDriverException: Message: 'operadriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" endtime="20200427 18:04:31.128" starttime="20200427 18:04:31.065"></status>
+</kw>
+<doc>Information about the test case</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20200427 18:04:31.128" critical="yes" starttime="20200427 18:04:31.065">WebDriverException: Message: 'operadriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<doc>Basic information here about the test suite</doc>
+<status status="FAIL" endtime="20200427 18:04:31.144" starttime="20200427 18:04:30.579"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Amazon" pass="0">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

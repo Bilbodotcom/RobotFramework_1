@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200427 14:27:02.801" generator="Robot 3.1.2 (Python 2.7.17 on win32)">
+<suite source="C:\Automation\Robot_Framework\search_flights3.robot" id="s1" name="Search Flights3">
+<kw type="setup" name="Open Home Page" library="search_flights_keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20200427 14:27:03.648" level="INFO">Opening browser 'Firefox' to base url 'http://blazedemo.com/'.</msg>
+<msg timestamp="20200427 14:27:03.657" level="INFO">Firefox driver log is always forced to to: C:\Automation\Robot_Framework\geckodriver-5.log</msg>
+<status status="PASS" endtime="20200427 14:27:28.395" starttime="20200427 14:27:03.647"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:28.396" starttime="20200427 14:27:03.646"></status>
+</kw>
+<test id="s1-t1" name="The user can search for flights">
+<kw name="Select Departure City" library="search_flights_keywords">
+<arguments>
+<arg>Paris</arg>
+</arguments>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath://select[@name='fromPort']</arg>
+<arg>${departure_city}</arg>
+</arguments>
+<msg timestamp="20200427 14:27:28.423" level="INFO">Selecting options from selection list 'xpath://select[@name='fromPort']' by value Paris.</msg>
+<status status="PASS" endtime="20200427 14:27:28.547" starttime="20200427 14:27:28.422"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:28.548" starttime="20200427 14:27:28.418"></status>
+</kw>
+<kw name="Select Destination City" library="search_flights_keywords">
+<arguments>
+<arg>London</arg>
+</arguments>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>xpath://select[@name='toPort']</arg>
+<arg>${destination_city}</arg>
+</arguments>
+<msg timestamp="20200427 14:27:28.553" level="INFO">Selecting options from selection list 'xpath://select[@name='toPort']' by value London.</msg>
+<status status="PASS" endtime="20200427 14:27:28.962" starttime="20200427 14:27:28.552"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:28.963" starttime="20200427 14:27:28.550"></status>
+</kw>
+<kw name="Search For Flights" library="search_flights_keywords">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>css:input[type='submit']</arg>
+</arguments>
+<msg timestamp="20200427 14:27:28.982" level="INFO">Clicking button 'css:input[type='submit']'.</msg>
+<status status="PASS" endtime="20200427 14:27:29.688" starttime="20200427 14:27:28.981"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:29.689" starttime="20200427 14:27:28.980"></status>
+</kw>
+<kw name="There are available Flights" library="search_flights_keywords">
+<kw name="Get WebElements" library="SeleniumLibrary">
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<arguments>
+<arg>css:table[class='table']&gt;tbody tr</arg>
+</arguments>
+<assign>
+<var>@{flights}</var>
+</assign>
+<msg timestamp="20200427 14:27:29.725" level="INFO">@{flights} = [ &lt;selenium.webdriver.firefox.webelement.FirefoxWebElement (session="4251f913-d0ec-4e9e-89b6-6e947137b709", element="607fa3da-d844-4ed9-8472-f3e2ca204a7e")&gt; | &lt;selenium.webdriver.firefox.webelement.Fi...</msg>
+<status status="PASS" endtime="20200427 14:27:29.725" starttime="20200427 14:27:29.698"></status>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${flights}</arg>
+</arguments>
+<msg timestamp="20200427 14:27:29.728" level="INFO">Length is 5</msg>
+<status status="PASS" endtime="20200427 14:27:29.729" starttime="20200427 14:27:29.726"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:29.729" starttime="20200427 14:27:29.696"></status>
+</kw>
+<tags>
+<tag>search_flights</tag>
+</tags>
+<status status="PASS" endtime="20200427 14:27:29.749" critical="yes" starttime="20200427 14:27:28.396"></status>
+</test>
+<kw type="teardown" name="Close Browsers" library="search_flights_keywords">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20200427 14:27:36.751" starttime="20200427 14:27:29.787"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:36.753" starttime="20200427 14:27:29.785"></status>
+</kw>
+<status status="PASS" endtime="20200427 14:27:36.753" starttime="20200427 14:27:02.811"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">search_flights</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Search Flights3" pass="1">Search Flights3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

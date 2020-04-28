@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200428 11:31:40.082" generator="Robot 3.1.2 (Python 2.7.17 on win32)">
+<suite source="C:\Automation\Robot_Framework\02-Tutorial2\TestSuite1.robot" id="s1" name="TestSuite1">
+<test id="s1-t1" name="First Test Case">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Starting test case</arg>
+</arguments>
+<msg timestamp="20200428 11:31:43.138" level="INFO">Starting test case</msg>
+<status status="PASS" endtime="20200428 11:31:43.138" starttime="20200428 11:31:43.138"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20200428 11:31:43.140" critical="yes" starttime="20200428 11:31:43.128"></status>
+</test>
+<test id="s1-t2" name="OpenBrowser">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Navigating to Google</arg>
+</arguments>
+<msg timestamp="20200428 11:31:43.150" level="INFO">Navigating to Google</msg>
+<status status="PASS" endtime="20200428 11:31:43.150" starttime="20200428 11:31:43.149"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.google.com</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200428 11:31:43.152" level="INFO">Opening browser 'firefox' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20200428 11:31:43.179" level="INFO">Firefox driver log is always forced to to: C:\Automation\Robot_Framework\02-Tutorial2\geckodriver-20.log</msg>
+<status status="PASS" endtime="20200428 11:32:10.692" starttime="20200428 11:31:43.151"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20200428 11:32:10.694" critical="yes" starttime="20200428 11:31:43.148"></status>
+</test>
+<test id="s1-t3" name="InputInformation">
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" endtime="20200428 11:32:10.733" starttime="20200428 11:32:10.716"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>Something Silly</arg>
+<arg>clear=True</arg>
+</arguments>
+<msg timestamp="20200428 11:32:10.736" level="INFO">Typing text 'Something Silly' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200428 11:32:10.954" starttime="20200428 11:32:10.735"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>filename=C:\\Automation\\Robot_Framework\\Screengrabs\\Screengrab.png</arg>
+</arguments>
+<msg timestamp="20200428 11:32:11.189" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screengrabs/Screengrab.png"&gt;&lt;img src="../Screengrabs/Screengrab.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200428 11:32:11.189" starttime="20200428 11:32:10.956"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>ENTER</arg>
+</arguments>
+<msg timestamp="20200428 11:32:11.192" level="INFO">Sending key(s) (u'ENTER',) to name=q element.</msg>
+<msg timestamp="20200428 11:32:11.504" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20200428 11:32:11.504" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" endtime="20200428 11:32:11.565" starttime="20200428 11:32:11.190"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>filename=C:\\Automation\\Robot_Framework\\Screengrabs\\Screengrab2.png</arg>
+</arguments>
+<msg timestamp="20200428 11:32:11.748" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screengrabs/Screengrab2.png"&gt;&lt;img src="../Screengrabs/Screengrab2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200428 11:32:11.748" starttime="20200428 11:32:11.566"></status>
+</kw>
+<tags>
+<tag>Acceptance</tag>
+</tags>
+<status status="PASS" endtime="20200428 11:32:11.749" critical="yes" starttime="20200428 11:32:10.714"></status>
+</test>
+<test id="s1-t4" name="CloseBrowser">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Closing Browser</arg>
+</arguments>
+<msg timestamp="20200428 11:32:11.759" level="INFO">Closing Browser</msg>
+<status status="PASS" endtime="20200428 11:32:11.759" starttime="20200428 11:32:11.758"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Get Browser Ids</arg>
+</arguments>
+<msg timestamp="20200428 11:32:11.760" level="INFO">Get Browser Ids</msg>
+<status status="PASS" endtime="20200428 11:32:11.760" starttime="20200428 11:32:11.760"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200428 11:32:16.332" starttime="20200428 11:32:11.761"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20200428 11:32:16.333" critical="yes" starttime="20200428 11:32:11.757"></status>
+</test>
+<test id="s1-t5" name="SampleLoginTest">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Opening Browser</arg>
+</arguments>
+<msg timestamp="20200428 11:32:16.341" level="INFO">Opening Browser</msg>
+<status status="PASS" endtime="20200428 11:32:16.341" starttime="20200428 11:32:16.341"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200428 11:32:16.345" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200428 11:32:31.375" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20200428 11:32:31.375" starttime="20200428 11:32:31.374"></status>
+</kw>
+<msg timestamp="20200428 11:32:31.590" level="FAIL">WebDriverException: Message: Service chromedriver unexpectedly exited. Status code was: -1073741819
+</msg>
+<status status="FAIL" endtime="20200428 11:32:31.590" starttime="20200428 11:32:16.344"></status>
+</kw>
+<doc>A sample log in test, executed by Billy</doc>
+<tags>
+<tag>Acceptance</tag>
+</tags>
+<status status="FAIL" endtime="20200428 11:32:35.659" critical="yes" starttime="20200428 11:32:16.339">WebDriverException: Message: Service chromedriver unexpectedly exited. Status code was: -1073741819
+</status>
+</test>
+<status status="FAIL" endtime="20200428 11:32:35.667" starttime="20200428 11:31:40.089"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="4">Critical Tests</stat>
+<stat fail="1" pass="4">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="1">Acceptance</stat>
+<stat fail="0" pass="3">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="TestSuite1" pass="4">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200428 11:31:39.916" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' *** Test Cases ***' in file 'C:\Automation\Robot_Framework\02-Tutorial2\TestSuite1.robot' on line 19.</msg>
+</errors>
+</robot>
