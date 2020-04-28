@@ -1,0 +1,173 @@
+1588068962338	geckodriver	INFO	geckodriver 0.21.0
+1588068962375	geckodriver	INFO	Listening on 127.0.0.1:63791
+1588068965345	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Billy\\AppData\\Local\\Temp\\rust_mozprofile.t52em7Ae8sDm"
+1588068969386	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588068969576	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588068969577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588068969578	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588068969578	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588068971043	Marionette	TRACE	Marionette enabled
+1588068971333	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1588068978833	Marionette	TRACE	Received observer notification marionette-startup-requested
+1588068978834	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1588068980743	Marionette	TRACE	Received observer notification domwindowclosed
+1588068980743	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1588068980803	Marionette	TRACE	All scripts recorded.
+1588068980803	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1588068980804	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1588068980804	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1588068980805	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1588068980805	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1588068980806	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1588068980806	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1588068980806	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1588068980806	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1588068980807	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1588068980808	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1588068980808	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1588068980808	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1588068980809	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1588068980809	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1588068980810	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1588068980811	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1588068980811	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1588068980811	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1588068980811	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1588068980812	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1588068980812	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1588068980813	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1588068981703	Marionette	INFO	Listening on port 63800
+1588068981704	Marionette	DEBUG	Marionette is listening
+1588068982153	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:63831
+1588068982160	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1588068982162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588068982312	Marionette	TRACE	[18] Frame script loaded
+1588068982316	Marionette	TRACE	[18] Frame script registered
+1588068982329	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"24c864c3-9e06-42bc-8ceb-6340a127d6d3","capabilities":{"browserName":"firefox","browserVersion":"75.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1588068982343	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"script":5000}]
+1588068982345	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1588068982350	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":0}]
+1588068982351	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1588068982355	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.google.com"}]
+1588068982370	Marionette	TRACE	[18] Received DOM event beforeunload for about:blank
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1588068990009	Marionette	TRACE	[18] Received DOM event pagehide for about:blank
+1588068990538	Marionette	TRACE	[18] Received DOM event DOMContentLoaded for https://www.google.com/
+1588069002183	Marionette	TRACE	[18] Received DOM event pageshow for https://www.google.com/
+1588069002189	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1588069002208	Marionette	DEBUG	0 -> [0,5,"WebDriver:SetTimeouts",{"implicit":5000}]
+1588069002209	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1588069002221	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElements",{"using":"css selector","value":"[name=\"q\"]"}]
+1588069002238	Marionette	DEBUG	0 <- [1,6,null,[{"element-6066-11e4-a52e-4f735466cecf":"e538a240-04e9-4d96-b6d5-2fa3917f6f75"}]]
+1588069002244	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClear",{"id":"e538a240-04e9-4d96-b6d5-2fa3917f6f75"}]
+1588069002253	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1588069002260	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"e538a240-04e9-4d96-b6d5-2fa3917f6f75","text":"Something Silly","value":["S","o","m","e","t","h","i","n","g"," ","S","i","l","l","y"]}]
+1588069002502	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1588069002512	Marionette	DEBUG	0 -> [0,9,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588069002985	Marionette	DEBUG	0 <- [1,9,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOzd23Mc1b3//d+/QvZFKpUiF0kgpGpvtoGkCsqIHXIRB5wdH ... jUjGJVREREREREREREpGYUqyIiIiIiIiIiIiI1o1gVERERERERERERqRnFqoiIiIiIiIiIiEjNKFZFREREREREREREaub/B84UhkCp6lX0AAAAAElFTkSuQmCC"}]
+1588069003009	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"css selector","value":"[name=\"q\"]"}]
+1588069003014	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"e538a240-04e9-4d96-b6d5-2fa3917f6f75"}]]
+1588069003023	Marionette	DEBUG	0 -> [0,11,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"e53 ... ions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1588069003056	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:850:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1588069003306	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1588069003344	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1588069003347	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1588069003357	Marionette	DEBUG	0 -> [0,12,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"durati ... tions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""},{"type":"keyUp","value":""}],"id":"key","type":"key"}]}]
+1588069003413	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:850:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1588069003428	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1588069003439	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1588069003440	Marionette	DEBUG	0 <- [1,12,null,{"value":null}]
+1588069003447	Marionette	DEBUG	0 -> [0,13,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1588069003632	Marionette	DEBUG	0 <- [1,13,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKOCAYAAABN80LeAAAgAElEQVR4nOzd/29c5Z3//c+/ku4PVfUR/YEFSqVdNpBWAoXQpbrVNE0X ... OKVREREREREREREZGaUayKiIiIiIiIiIiI1IxiVURERERERERERKRmFKsiIiIiIiIiIiIiNaNYFREREREREREREamZ/x8x6K5RfQczJAAAAABJRU5ErkJggg=="}]
+1588069003654	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588069003655	Marionette	INFO	Stopped listening on port 63800
+1588069004878	Marionette	TRACE	Received observer notification quit-application
+1588069004887	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown"}]
+1588069004959	Marionette	DEBUG	0 -> [0,15,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1588069004960	Marionette	DEBUG	0 <- [1,15,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1588069004996	Marionette	DEBUG	Closed connection 0
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1588069007148	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1588069007148	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1588069007148	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1588069007148	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1588069007149	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1588069007150	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1588069007150	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1588069007150	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1588069007151	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1588069007151	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1588069007151	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1588069007153	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1588069007153	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1588069007153	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1588069007153	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1588069007154	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1588069007154	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1588069007154	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1588069007154	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1588069007154	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1588069007155	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1588069007155	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1588069007155	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1588069007156	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1588069007157	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
