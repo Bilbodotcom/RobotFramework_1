@@ -14,7 +14,7 @@ LoginAction
     
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com/
-${Browser}    Chrome
+${Browser}    Firefox
 
  *** Test Cases ***
 First Test Case
@@ -23,7 +23,7 @@ First Test Case
 OpenBrowser
     [Tags]    Smoke
     Log    Navigating to Google
-    Open Browser    https://www.google.com    firefox
+    Open Browser    https://www.google.com    ${Browser}
 
 InputInformation
     [Tags]    Acceptance
