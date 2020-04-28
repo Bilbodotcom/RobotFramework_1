@@ -27,7 +27,7 @@ OpenBrowser
 
 InputInformation
     [Tags]    Acceptance
-    Set Browser Implicit Wait    5
+    Set Browser Implicit Wait    10
     Input Text    name=q    Something Silly    clear=True
     Capture Page Screenshot    filename=C:\\Automation\\Robot_Framework\\Screengrabs\\Screengrab.png
     Press Keys    name=q    ENTER
